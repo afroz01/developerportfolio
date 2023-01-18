@@ -37,6 +37,7 @@ font-size: 45px;
     border: 0;
     padding: 18px 35px;
 }
+
 /* banner style*/
 
 .banner{
@@ -180,14 +181,36 @@ margin-bottom: 10px;
 .resume-button{
     text-align: center;
     margin-top: 50px;
+    margin-bottom: 130px;
 }
 /*contact styles*/
 .contact{
     display: flex;
-    gap: 450px;
+    gap: 100px;
     background: #FFF8F3;
     padding: 130px 150px;
 }
 .contact .section-title{
-text-align: center;
+text-align: left;
+
+}
+.contact input[type="text"], input[type="email"], textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width:100%;
+    padding:18px 30px
+
+    
+    
+}
+input{
+    width: 461px;
+height: 64px;
+}
+input.btn-primary{
+    width: 150px;
+height: 64px;
+}
+a{
+    text-decoration: none;
 }
